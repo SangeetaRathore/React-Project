@@ -1,12 +1,10 @@
-import Person from './person'
+import React from 'react';
+import Person from './person';
 
-function House (props) {
-    
+function House() {
     return (
-        
-        <Person name = "Mohit"/>
-    )
+        <Person name={23} />  // This will trigger a warning in the console
+    );
 }
-
 
 export default House;
